@@ -31,9 +31,9 @@ jobs:
 
       - name: Tag Docker image for ECR Public with correct tag format
         run: |
-          docker tag dicksonanyaele_asciigen:latest public.ecr.aws/${{ secrets.ECR_PUBLIC_ALIAS }}/elitekaycy/dicksonanyaele_asciigen:latest
+          docker tag dicksonanyaele_asciigen:latest public.ecr.aws/${{ secrets.ECR_PUBLIC_ALIAS }}/elitekaycy/dicksonanyaele_asciigen:dicksonanyaele_asciigen
 
       - name: Push Docker image to ECR Public
         run: |
-          docker push public.ecr.aws/${{ secrets.ECR_PUBLIC_ALIAS }}/elitekaycy/dicksonanyaele_asciigen:latest
+          docker push public.ecr.aws/${{ secrets.ECR_PUBLIC_ALIAS }}/elitekaycy/dicksonanyaele_asciigen:dicksonanyaele_asciigen
 
