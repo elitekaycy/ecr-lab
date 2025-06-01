@@ -1,0 +1,15 @@
+target/
+build/
+
+*.iml
+.idea/
+*.ipr
+*.iws
+*.class
+
+*.log
+
+.git
+.gitignore
+
+Dockerfile
